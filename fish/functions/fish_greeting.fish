@@ -1,4 +1,5 @@
 function fish_greeting
+  rvm default
   fortune | cowsay
   if [ "$TERM" != "screen" ]; or [ -z $TMUX ]
     tmux a
